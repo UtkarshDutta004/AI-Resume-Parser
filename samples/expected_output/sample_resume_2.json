@@ -1,0 +1,13 @@
+{
+  "name": "Alex Morgan",
+  "email": "alex.morgan@example.org",
+  "phone": "(312) 555-0177",
+  "linkedin": "https://www.linkedin.com/in/alex-morgan",
+  "github": null,
+  "skills": ["CSS", "HTML", "JavaScript", "Node.js", "React", "TypeScript"],
+  "education": [{"degree": "Bachelor of Arts", "institution": "Lakeside College", "dates": ["2019"]}],
+  "experience": [{"title": "Frontend Developer", "organization": "Pixel Works", "dates": ["2019", "2023"]}],
+  "total_years_experience": 4,
+  "projects": ["Design System - Created reusable interface components."],
+  "certifications": ["Google UX Design Certificate"]
+}

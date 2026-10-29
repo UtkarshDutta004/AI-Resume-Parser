@@ -1,0 +1,13 @@
+{
+  "name": "Jordan Lee",
+  "email": "jordan.lee@example.com",
+  "phone": "+1 (212) 555-0198",
+  "linkedin": "https://www.linkedin.com/in/jordan-lee",
+  "github": "https://github.com/jordanlee",
+  "skills": ["AWS", "Git", "Machine Learning", "Python", "SQL"],
+  "education": [{"degree": "Master of Science", "institution": "Columbia University", "dates": ["2020"]}],
+  "experience": [{"title": "Data Analyst", "organization": "Northstar Analytics", "dates": ["2020", "2024"]}],
+  "total_years_experience": 4,
+  "projects": ["Customer Churn Model - Developed a churn prediction workflow."],
+  "certifications": ["AWS Certified Solutions Architect"]
+}

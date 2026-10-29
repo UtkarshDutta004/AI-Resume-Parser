@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10172a">
+  <meta name="description" content="A private, local-first AI resume parser powered by NLP.">
+  <title>Resume Parser | Candidate insights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Resume Parser home">
+      <span class="brand-mark" aria-hidden="true">R</span>
+      <span>parse<span class="brand-light">wise</span></span>
+    </a>
+    <span class="privacy"><span class="privacy-dot"></span> Private by design</span>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro">
+      <span class="eyebrow"><span class="sparkle">✳</span> AI-POWERED RESUME PARSING</span>
+      <h1>Meet your next <span>great hire.</span></h1>
+      <p class="intro-copy">Turn resumes into clear, structured candidate profiles in seconds.<br class="desktop-break"> Your files are processed privately and never stored.</p>
+    </section>
+
+    <section class="workspace" aria-label="Resume parser">
+      <div class="upload-panel">
+        <div class="panel-heading">
+          <div>
+            <h2>Upload a resume</h2>
+            <p>Let’s find the details that matter.</p>
+          </div>
+          <span class="step-badge">01 <span>/ 02</span></span>
+        </div>
+
+        <form id="upload-form">
+          <label class="drop-zone" id="drop-zone" for="resume-file">
+            <input id="resume-file" name="file" type="file" accept=".pdf,.docx,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain">
+            <span class="upload-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 15v4a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <strong id="drop-title">Drop your resume here</strong>
+            <span class="drop-subtitle" id="drop-subtitle">or <span>browse files</span> to upload</span>
+            <span class="file-hint">PDF, DOCX or TXT <span>·</span> up to 5 MB</span>
+          </label>
+          <div class="upload-actions">
+            <span class="secure-note"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 7V5a3.5 3.5 0 1 1 7 0v2m-8 0h9v7h-9V7Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Your resume is never saved</span>
+            <button id="parse-button" class="primary-button" type="submit" disabled>Parse resume <span aria-hidden="true">→</span></button>
+          </div>
+        </form>
+        <div id="status-message" class="status-message" role="status" aria-live="polite" hidden></div>
+      </div>
+
+      <div class="results-panel" id="results-panel" aria-live="polite">
+        <div class="empty-state" id="empty-state">
+          <div class="empty-art" aria-hidden="true">
+            <span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span>
+            <span class="art-card"><i></i><i></i><i></i><b></b></span>
+            <span class="art-spark">✦</span>
+          </div>
+          <h2>Your candidate snapshot<br>will show up here</h2>
+          <p>Upload a resume to get a structured overview<br class="desktop-break"> of skills, experience and more.</p>
+          <div class="result-placeholder"><span></span><i></i><i></i></div>
+        </div>
+        <div class="results-content" id="results-content" hidden>
+          <div class="results-heading">
+            <div><span class="eyebrow">CANDIDATE SNAPSHOT</span><h2>Profile overview</h2></div>
+            <button class="text-button" type="button" id="json-toggle" aria-expanded="false">View raw JSON <span>↗</span></button>
+          </div>
+          <div id="candidate-results"></div>
+          <pre id="raw-json" class="raw-json" hidden></pre>
+        </div>
+      </div>
+    </section>
+    <footer><span>Made for better hiring</span><span class="footer-divider">·</span><span>Powered by thoughtful AI</span></footer>
+  </main>
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</body>
+</html>

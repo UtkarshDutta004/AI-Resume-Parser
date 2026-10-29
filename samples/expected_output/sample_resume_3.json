@@ -1,0 +1,13 @@
+{
+  "name": "Maya Chen",
+  "email": "maya.chen@example.com",
+  "phone": "+1 (415) 555-0132",
+  "linkedin": "https://www.linkedin.com/in/maya-chen",
+  "github": "https://github.com/mayachen",
+  "skills": ["Docker", "Flask", "JavaScript", "Natural Language Processing", "Python", "SQL"],
+  "education": [{"degree": "Bachelor of Science", "institution": "University of California, Berkeley", "dates": ["2020"]}],
+  "experience": [{"title": "Software Engineer", "organization": "Bright Labs", "dates": ["2021-01", "2026-10"]}],
+  "total_years_experience": 5,
+  "projects": ["Candidate Insights Dashboard - Built an accessible hiring dashboard."],
+  "certifications": ["AWS Certified Cloud Practitioner"]
+}

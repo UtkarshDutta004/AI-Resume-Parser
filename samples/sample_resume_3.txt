@@ -1,0 +1,22 @@
+Maya Chen
+maya.chen@example.com | +1 (415) 555-0132
+https://www.linkedin.com/in/maya-chen | https://github.com/mayachen
+
+SUMMARY
+Product-minded software engineer building useful data tools.
+
+SKILLS
+Python, JavaScript, Flask, SQL, Docker, NLP
+
+EXPERIENCE
+Software Engineer, Bright Labs | Jan 2021 - Present
+Built resume matching and recruiting workflow tools.
+
+EDUCATION
+Bachelor of Science, University of California, Berkeley | 2020
+
+PROJECTS
+Candidate Insights Dashboard - Built an accessible hiring dashboard.
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner

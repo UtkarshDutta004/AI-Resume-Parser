@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# JavaScript dependencies
+node_modules/
+
+# Temporary or uploaded files
+uploads/
+tmp/
+parsed_outputs/
+
+# Logs and test/coverage artifacts
+*.log
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Generated sample binaries (recreate with scripts/generate_samples.py)
+samples/sample_resume_1.pdf
+samples/sample_resume_2.docx
