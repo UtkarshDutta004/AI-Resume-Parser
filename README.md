@@ -13,7 +13,7 @@ An NLP-powered Flask application that turns PDF, DOCX, and TXT resumes into stru
 
 **Live Demo:** [Add your deployed app URL here](https://YOUR_LIVE_DEMO_URL)
 
-Record a demo GIF yourself and save it as `docs/demo.gif`; see [docs/README.md](docs/README.md).
+Record a demo GIF yourself and save it as `docs/demo.gif`; see [docs/README.md](docs/demo.gif).
 
 ## Overview
 
