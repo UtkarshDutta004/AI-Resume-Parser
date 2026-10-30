@@ -11,7 +11,7 @@ An NLP-powered Flask application that turns PDF, DOCX, and TXT resumes into stru
 
 ![Resume Parser demo](docs/demo.gif)
 
-**Live Demo:** [Add your deployed app URL here](https://YOUR_LIVE_DEMO_URL)
+**Live Demo:** [Deploy to Render](https://ai-resume-parser-l1ve.onrender.com/)
 
 Record a demo GIF yourself and save it as `docs/demo.gif`; see [docs/README.md](docs/demo.gif).
 
