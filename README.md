@@ -3,7 +3,7 @@
 An NLP-powered Flask application that turns PDF, DOCX, and TXT resumes into structured candidate profiles.
 
 [![CI](https://github.com/UtkarshDutta004/AI-Resume-Parser/actions/workflows/ci.yml/badge.svg)](https://github.com/UtkarshDutta004/AI-Resume-Parser/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/badge/coverage-70%25%2B-brightgreen)](https://github.com/UtkarshDutta004/AI-Resume-Parser)
+[![codecov](https://codecov.io/github/UtkarshDutta004/AI-Resume-Parser/graph/badge.svg?token=UY9P2KTQEU)](https://codecov.io/github/UtkarshDutta004/AI-Resume-Parser)
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
