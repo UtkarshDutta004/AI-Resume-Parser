@@ -115,7 +115,7 @@ Open `http://localhost:5000`. Stop the container with `Ctrl+C`; run `docker comp
 2. Select **Parse resume** and wait for the candidate snapshot.
 3. Review the profile cards or open **View raw JSON**.
 
-![Screenshot placeholder: replace with an application screenshot](docs/screenshot-placeholder.png)
+![Screenshot placeholder: replace with an application screenshot](docs/screenshot.png)
 
 The screenshot image is a placeholder path; add your own screenshot if desired.
 
